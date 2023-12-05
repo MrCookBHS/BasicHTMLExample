@@ -1,6 +1,6 @@
 /* Controls the style of the body */
 body {
-  background-color: darksalmon;
+  background-color: grey;
 }
 
 /* Controls the style of all h2 tags */
@@ -15,8 +15,12 @@ h2 {
 }
 
 #goodJobImage {
-  width: 100px;
+  width: 300px;
   margin-left: auto; /* Centers the image */
   margin-right: auto; /* Centers the image */
   border: 3px solid;
+}
+#winLabel {
+  color: red;
+  border: 1px dotted black; 
 }
