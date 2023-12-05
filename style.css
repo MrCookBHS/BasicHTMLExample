@@ -1,0 +1,22 @@
+/* Controls the style of the body */
+body {
+  background-color: darksalmon;
+}
+
+/* Controls the style of all h2 tags */
+h2 {
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Controls the style of the elements in the HTML code that have an ID of "winLabel" */
+#winLabel {
+  color: red;
+}
+
+#goodJobImage {
+  width: 100px;
+  margin-left: auto; /* Centers the image */
+  margin-right: auto; /* Centers the image */
+  border: 3px solid;
+}
