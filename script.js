@@ -14,10 +14,11 @@ countButton.onclick = function() {
   count++;
   counterLabel.innerHTML = "Total count: " + count;
   if(count==5) {
-    winLabel.innerHTML = "YOU WIN!";
+    winLabel.innerHTML = "I'm inside.";
   }
   if(count==10) {
-    winLabel.innerHTML = "You already won, stop it";
-    winLabel.style.color = "blue";
+    winLabel.innerHTML = "Turn around.";
+    winLabel.style.color = "red";
+   
   }
 }
