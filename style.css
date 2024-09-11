@@ -1,1 +1,31 @@
-
+body {
+  padding: 25px;
+  background: linear-gradient(#f9d5ea 50%, #ffffff 100%);
+}
+.title {
+	color: #5C6AC4;
+}
+#oliverImageOne {
+  border-width: 10px;
+  border: 5px solid #db81b6;
+  margin: 20px;
+  height: 40%;
+  width: 40%;
+}
+hr {
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+}
+#oliverTextDiv {
+  float: right;
+  display: inline;
+  width: 40%;
+  margin: 20px;
+  background-color: #fae3f1;
+  border: 5px solid #db81b6;
+}
+#oliverText {
+  text-align: left;
+  margin: 5px;
+  
+}
