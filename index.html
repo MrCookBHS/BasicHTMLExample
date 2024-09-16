@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
+      <title>Oliver's Page!</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesOliver.css">
   </head>
   <body class="mainBody">
     <main>
       <h1 align="center">Oliver Appreciation Page</h1>
       <hr>
-      <img id="oliverImageOne" src="https://assets.onecompiler.app/42qmevhbd/42qm58rs6/oliver.png" height ="450" width ="300" alt="oliver">
-      <div id="oliverTextDiv">
-        <p id="oliverText">This is oliver! He is my pet shark! :D</p>
+      <div id="oliverPartOne">
+        <img id="oliverImageOne" src="https://assets.onecompiler.app/42qmevhbd/42qm58rs6/oliver.png" height ="512" width="384" alt="oliver">
+        <div id="oliverTextDiv">
+          <p id="oliverText">This is Oliver! He is my pet shark! He knows magic spells too! He is an awesome shark and is very nice and cool! :D</p>
+        </div>
+      </div>
+      
+      <div id="oliverQuestions">
+        <form action="" id="oliverQuestionsForm" onsubmit="return false">
+        <fieldset id="oliverQuestionsFieldset">
+          <legend>Do you like Oliver?</legend>
+          <label>
+             <input id="yes" name="yes-alsoYes" value="yes" type="radio">Yes
+          </label>
+          <label>
+            <input required id="alsoYes" name="yes-alsoYes" value="alsoYes" type="radio">Also Yes
+          </label>
+        </fieldset>
+        <button id="submitOliverQuestions" type="submit">Submit</button>
+        </form>
       </div>
     </main>
   </body>
